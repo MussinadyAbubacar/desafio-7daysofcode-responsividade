@@ -47,6 +47,14 @@ img {
 
 }
 
+.conteiner {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+}
+
 .cabecalho {
 
     display: flex;
@@ -227,7 +235,7 @@ img {
     font-weight: 500;
     line-height: 160%; /* 22.4px */
 
-    width: 13rem;
+    /* width: 13rem; */
     padding: 1.3rem 1.6rem;
     background-color: var(--color7);
     border: none;
@@ -244,11 +252,36 @@ img {
     font-weight: 500;
     line-height: 160%; /* 22.4px */
 
-    width: 13rem;
+    /* width: 13rem; */
     /* height: 4.8rem; */
     padding: 1.3rem 1.6rem;
     background-color: transparent;
     border: 0.1rem solid var(--color6);
+    border-radius: 0.8rem;
+
+}
+
+.list-btn-location {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-location {
+
+    color: var(--color3);
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 22.4px */
+
+    width: 100%;
+    padding: 1.3rem 1.6rem;
+    background-color: var(--color8);
+    border: none;
     border-radius: 0.8rem;
 
 }

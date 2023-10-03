@@ -10,6 +10,8 @@
 
 :root {
 
+    --font: 'Montserrat', sans-serif;
+
     --color1: #F8F4FF;
     --color2: #EFF0F4;
     --color3: #FFF;
@@ -25,6 +27,7 @@
 
 html,body {
 
+    font-family: var(--font);
     font-size: 62.5%;
 
 }

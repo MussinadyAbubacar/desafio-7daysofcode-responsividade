@@ -8,13 +8,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js" defer></script>
 </head>
 <body>
     
     <main>
 
-        <section> <!-- SECCAO CABEÇALHO -->
+        <header> <!-- SECCAO CABEÇALHO -->
 
             <div class="cabecalho">
 
@@ -33,7 +35,7 @@
 
             </div>
 
-        </section> <!-- SECCAO CABEÇALHO -->
+        </header> <!-- SECCAO CABEÇALHO -->
 
         <section> <!-- SECCAO HOJE -->
 
@@ -461,7 +463,7 @@
 
             <h2 class="section-title">Quarta-feira</h2>
 
-            <div class="conteiner">
+            <div class="conteiner last-child">
 
                 <div class="conteiner-list">
 
@@ -652,11 +654,11 @@
                                 </h2>
     
                                 <div class="list-cabecalho-info-desc">
-
                                     
                                     <i class="fa-solid fa-location-dot"></i>
 
                                     <span class="descricao">Consulta no local</span>
+
                                 </div>
     
                             </div>
@@ -699,13 +701,35 @@
 
             <div class="btn-div">
 
-                <button type="button" class="btn-div-mais">
+                <div class="display">
 
-                    +
+                    <div class="div-display">
+                        <div class="btn-flex">
+                            <button type="button" class="btn-div-mais btn-disply">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </button>
+
+                            <span class="btn-flex_desc">Nova consulta na casa do paciente</span>
+                        </div>
+                        
+                        <div class="btn-flex">
+                            <button type="button" class="btn-div-mais btn-disply">
+                                <i class="fa-solid fa-video"></i>
+                            </button>
+
+                            <span class="btn-flex_desc">Nova consulta por vídeo</span>
+                        </div>
+                    </div>
+            
+                </div> 
+
+                <button type="button" id="btn-mais" class="btn-div-mais">
+
+                    <i class="fa-solid fa-plus"></i>
 
                 </button>
 
-            </div>
+            </div> <!-- btn-div mais -->
 
             <nav class="navbar">
 
@@ -713,25 +737,47 @@
 
                     <li class="navbar-list_link">
 
-                        <a href="#">Consultas</a>
+                        
+                        <a href="#">  
+                            
+                            <span class="link-desc">Consultas</span> 
+                            <i class="fa-regular fa-calendar"> </i>
+                        
+                        </a>
 
                     </li>
 
                     <li class="navbar-list_link">
 
-                        <a href="#">Clientes</a>
+                        
+                        <a href="#">
+                            
+                            <span class="link-desc">Clientes</span> 
+                            <i class="fa-solid fa-user-group"></i>
+                        
+                        </a>
 
                     </li>
 
                     <li class="navbar-list_link">
 
-                        <a href="#">Relatórios</a>
+                        <a href="#">
+                            
+                            <span class="link-desc">Relátorios</span>
+                            <i class="fa-solid fa-chart-simple"></i>
+                        
+                        </a>
 
                     </li>
 
                     <li class="navbar-list_link">
 
-                        <a href="#">Menu</a>
+                        <a href="#">
+                            
+                            <span class="link-desc">Menu</span>
+                            <i class="fa-solid fa-bars"></i>
+                        
+                        </a>
 
                     </li>
 

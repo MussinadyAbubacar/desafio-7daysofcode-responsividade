@@ -1,0 +1,32 @@
+
+@import url('./reset.css');
+@import url('./home.css');
+@import url('./consultas.css');
+@import url('./botoes.css');
+@import url('./rodape.css');
+@import url('./botao-flutuante');
+
+body{
+
+  background-color: var(--color6);
+
+}
+
+strong{
+
+  color: var(--color5);
+
+}
+
+main{
+
+  min-width: 30rem;
+  padding: 1.6rem;
+
+}
+
+img {
+
+  width: 100%;
+
+}

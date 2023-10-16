@@ -1,0 +1,20 @@
+
+.btn-primario {
+    border: none;
+    background: var(--color8);
+    color: var(--color2);
+
+  }
+
+  .btn-secundario {
+    border: none;
+    background: var(--color7);
+    color: var(--color2);
+
+  }
+  
+  .btn-terciario {
+    background: var(--color2);
+    border: 0.1rem solid var(--color4);
+    
+  }

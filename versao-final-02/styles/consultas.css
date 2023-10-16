@@ -1,0 +1,160 @@
+.consultas__data{
+
+    display: flex;
+    align-items: center;
+    padding:  1.6rem 0;
+
+  }
+
+  .consultas__data > strong {
+
+    font-size: 1.6rem;
+
+  }
+  
+  .consultas ul{
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+  }
+  
+  .consulta__card{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    background: var(--color1);
+    padding: 1.6rem;
+    border-radius: 0.8rem;
+
+  }
+  
+  .consulta__card-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  
+  .consulta__card-paciente{
+
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+
+  }
+  
+  .consulta__card-paciente>img{
+
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    object-fit: cover;
+  
+  }
+  
+  .consulta__card-paciente-info{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+  }
+
+  .consulta__card-paciente-info > strong{
+
+    font-size: 1.4rem;
+
+  }
+
+  .consulta__card-paciente-info__location {
+
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.2rem;
+    color: var(--color5);
+
+  }
+
+  .consulta__card-paciente-info__location > span{
+
+    width: 1.6rem;
+    height: 1.6rem;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+  
+  .consulta__card-paciente-info__location span.camera{
+
+    background-image: url('../assets/icons/Camera.svg');
+
+  }
+  .consulta__card-paciente-info__location span.mapa{
+
+    background-image: url('../assets/icons/Pin.svg');
+
+
+  }
+
+  .consulta__card-chat{
+
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    border: none;
+    background: var(--color3);
+    background-image: url('../assets/icons/Chat.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+  .consulta__card-conteudo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+  
+  }
+
+  .consulta__card-conteudo p{
+
+    font-size: 1.2rem;
+
+  }
+
+  .consulta__card-acoes{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+
+  }
+
+  .consulta__card-acoes button{
+
+    width: 100%;
+    border-radius: .8rem;
+    padding: 1.3rem 1.6rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+
+  }
+
+  .consulta__card-conteudo::before {
+
+    content: '';
+    width: 100%;
+    height: 0.1rem;
+    background-color: var(--color4);
+    opacity: 0.3;
+
+  }

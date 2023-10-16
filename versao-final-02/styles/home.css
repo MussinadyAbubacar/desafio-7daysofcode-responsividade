@@ -1,0 +1,28 @@
+.home{
+
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+   
+  }
+  
+  .home > img{
+    
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+  
+  }
+  
+  .home__info > strong{
+    
+    font-size: 2.2rem;
+
+  }
+  
+  .home .home__info p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--color4);
+    margin-top: 0.8rem;
+  }

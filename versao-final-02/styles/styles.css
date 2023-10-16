@@ -4,7 +4,7 @@
 @import url('./consultas.css');
 @import url('./botoes.css');
 @import url('./rodape.css');
-@import url('./botao-flutuante');
+@import url('./botao-flutuante.css');
 
 body{
 
@@ -18,7 +18,7 @@ strong{
 
 }
 
-section{
+section, .home {
 
   min-width: 30rem;
   padding: 1.6rem;

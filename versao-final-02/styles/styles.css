@@ -18,6 +18,12 @@ strong{
 
 }
 
+img {
+
+  width: 100%;
+
+}
+
 section, .home {
 
   min-width: 30rem;
@@ -25,8 +31,12 @@ section, .home {
 
 }
 
-img {
+@media screen and (min-width: 960px){
 
-  width: 100%;
+  section {
 
+    padding: 1.6rem calc((100% - 96rem - 1.6rem) / 2);
+
+  }
+  
 }
